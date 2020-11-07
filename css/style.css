@@ -9,4 +9,31 @@
 .color
 {
 	color: #FFFFFF;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+}
+/* .mypanel
+{
+	width: 10px;
+	height: 585px;
+} */
+.pla
+{
+	left: 29%;
+	border-radius: 10px;
+	-moz-box-shadow:4px 10px 20px #8F8F8F;
+	-webkit-box-shadow:4px 10px 20px #8F8F8F; 
+	box-shadow:4px 10px 20px #8F8F8F;
+	width: 700px;
+	height: 600px;
+	position: absolute;
+    /* left: 50%; */
+    /* margin-left: 300; */
+    /* top: 50%; */
+    /* margin-top: 250; */
+	
+>>>>>>> Develop
+>>>>>>> c6fa8d6c40dbb10310f6e91511f5bab051acf79a
 }
