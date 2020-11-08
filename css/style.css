@@ -10,3 +10,96 @@
 {
 	color: #FFFFFF;
 }
+/* *************************** */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.slideshow {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow .btn {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+
+.slideshow .ra-show {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    z-index: 2;
+}
+
+.ra-show i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #efefef;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slideshow .ra-show .active {
+    background: #ff9000;
+    box-shadow: 0 0 10px #FF9000;
+}
+
+.btn span {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn span:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn .last-img {
+    float: left;
+}
+
+.btn .next-img {
+    float: right;
+}
+
+.slideshow ul {
+    position: relative;
+}
+
+.slideshow ul li {
+    height: 400px;
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.slideshow ul li:hover {
+    cursor: pointer;
+}
+
+.slideshow ul li img {
+    height: 400px;
+    width: 100%;
+}
